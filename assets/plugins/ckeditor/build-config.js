@@ -13,10 +13,10 @@
  * (1) http://ckeditor.com/builder
  *     Visit online builder to build CKEditor from scratch.
  *
- * (2) http://ckeditor.com/builder/c3fc0dcaa9c80d707aab3e60fdcddbfb
+ * (2) http://ckeditor.com/builder/020a5d427906ba06b013c886502ffdb9
  *     Visit online builder to build CKEditor, starting with the same setup as before.
  *
- * (3) http://ckeditor.com/builder/download/c3fc0dcaa9c80d707aab3e60fdcddbfb
+ * (3) http://ckeditor.com/builder/download/020a5d427906ba06b013c886502ffdb9
  *     Straight download link to the latest version of CKEditor (Optimized) with the same setup as before.
  *
  * NOTE:
@@ -25,7 +25,7 @@
  */
 
 var CKBUILDER_CONFIG = {
-	skin: 'moono-lisa',
+	skin: 'office2013',
 	preset: 'full',
 	ignore: [
 		'.DS_Store',
@@ -64,6 +64,7 @@ var CKBUILDER_CONFIG = {
 		'copyformatting' : 1,
 		'dialogadvtab' : 1,
 		'div' : 1,
+		'easyimage' : 1,
 		'elementspath' : 1,
 		'enterkey' : 1,
 		'entities' : 1,
@@ -113,7 +114,8 @@ var CKBUILDER_CONFIG = {
 		'undo' : 1,
 		'uploadimage' : 1,
 		'wsc' : 1,
-		'wysiwygarea' : 1
+		'wysiwygarea' : 1,
+		'youtube' : 1
 	},
 	languages : {
 		'af' : 1,
