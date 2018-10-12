@@ -42,6 +42,20 @@ ux-dialog {
 	position: absolute;
     bottom: 0;
 }
+.mr-5{
+	margin-right: 5px;
+}
+.font-13{
+	font-size: 13px;
+}
+.btn-group-sm>.btn, .btn-sm, .sweet-alert .btn-group-sm>button {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.bd-r-4{
+	border-radius: 4px !important;
+
+}
 @media (max-width: 767px) {
 	.page-title {
 	    padding: 0px 35px;
