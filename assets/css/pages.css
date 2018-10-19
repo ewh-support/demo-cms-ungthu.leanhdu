@@ -56,6 +56,41 @@ ux-dialog {
 	border-radius: 4px !important;
 
 }
+.font-b{
+	font-weight: bold;
+}
+.style_hover{
+	color: #0073aa;
+}
+.style_hover:hover{
+  color: #00a0d2;
+  cursor: pointer;
+}
+.p-mb-15{
+	margin-bottom: 15px;
+}
+.style-lb{
+    display: inline-flex;
+	font-size: 13px !important;
+    text-transform: capitalize !important;
+    font-weight: normal !important;
+}
+.style-lb input{
+	margin-right: 5px;
+	width: 16px;
+    height: 16px;
+	top: -1px;
+    margin-top: 3px;
+}
+.form-group-default-check{
+	background-color: #fff;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.07);
+    border-radius: 2px;
+    padding: 7px 12px 4px;
+    overflow: hidden;
+    transition: background-color .2s ease;
+}
 @media (max-width: 767px) {
 	.page-title {
 	    padding: 0px 35px;
