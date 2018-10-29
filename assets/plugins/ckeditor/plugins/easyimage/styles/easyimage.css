@@ -116,3 +116,9 @@ the initial render, otherwise it would start transitioning from opacity 1 to 0.x
 .cke_widget_wrapper_easyimage.cke_widget_wrapper_uploading figure img {
 	opacity: 0.75;
 }
+.easyimage .cke_widget_editable {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    font-family: Mightype;
+}
